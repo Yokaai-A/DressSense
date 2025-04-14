@@ -3,6 +3,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:dresssense/Screen/welcome_screen.dart';
 
 Future<void> main() async {
+  // load .env file sebelum runApp
   await dotenv.load();
 
   runApp(
