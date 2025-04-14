@@ -24,3 +24,6 @@ Fitur-fitur yang belum masih belum terpenuhi :
 - Sistem akun dan login agar pengguna yang mengganti device tidak kehilangan simpanan pakaian diperangkat sebelumnya.
 - Outfit screen yang dimana akan diberikan algoritma untuk menampilkan saran outfit yang cocok dengan pengguna 
 - Kemampuan Pengguna dapat mengganti profile picturenya.
+
+Link drive demo:
+https://drive.google.com/drive/folders/1pdZ6U5Sd8m9CYhASYpPtbVgFb_ueECO-
