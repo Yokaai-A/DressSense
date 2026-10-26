@@ -1,29 +1,83 @@
-# dresssense
+# 👗 DressSense
 
-Team Name : Bazinga
-Member Name : 
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev/)
+[![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)](https://laravel.com/)
+
+**DressSense** adalah aplikasi *mobile* aksesibilitas yang dirancang untuk membantu penyandang buta warna dalam mengenali warna pakaian dan merencanakan padu padan *outfit* sehari-hari. Aplikasi ini mengintegrasikan lemari pakaian digital, informasi cuaca real-time, dan fitur pencarian produk untuk memudahkan pemeliharaan gaya berpakaian secara mandiri.
+
+---
+
+## ✨ Fitur Saat Ini
+
+- 🌤️ **Informasi Cuaca:** Menampilkan perkiraan cuaca lokal sesuai lokasi pengguna untuk panduan berpakaian.
+- 👗 **Lemari Pakaian Digital:** Mengambil foto pakaian lewat kamera, mendeteksi warna secara akurat, dan menyimpannya di perangkat.
+- 👔 **Katalog Outfit:** Menampilkan inspirasi dan ide *outfit* berdasarkan kategori tertentu.
+- 🛒 **Halaman Toko:** Katalog produk contoh lengkap dengan filter kategori, banner promo, dan kolom pencarian.
+
+> ℹ️ *Catatan: Beberapa bagian aplikasi saat ini masih menggunakan data sampel (dummy data).*
+
+---
+
+## 🛠️ Teknologi & Tools
+
+- **Mobile App:** Flutter & Dart
+- **Backend API:** Laravel (PHP)
+
+---
+
+## 🚀 Panduan Memulai
+
+### Prasyarat
+Pastikan Anda telah menginstal [Flutter SDK](https://docs.flutter.dev/get-started/install) pada perangkat Anda.
+
+### Langkah Instalasi
+
+1. **Masuk ke direktori proyek Flutter:**
+   ```bash
+   cd dresssense_2
+   ```
+
+2. **Konfigurasi Environment:**
+   Buat dan sesuaikan berkas `.env` di dalam folder `dresssense_2/` jika diperlukan.
+
+3. **Install Dependensi:**
+   ```bash
+   flutter pub get
+   ```
+
+4. **Jalankan Aplikasi:**
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🔮 Rencana Pengembangan (Roadmap)
+
+Fitur yang direncanakan untuk pembaruan mendatang:
+
+- [ ] **Personalisasi Rekomendasi:** Penyesuaian saran gaya berdasarkan kebiasaan & preferensi pengguna.
+- [ ] **Virtual Try-On (AR/3D):** Fitur mencoba pakaian secara virtual menggunakan Augmented Reality & model 3D.
+- [ ] **Sistem Akun & Cloud Sync:** Integrasi penuh ke backend Laravel untuk sinkronisasi data lintas perangkat.
+- [ ] **Smart Mix & Match:** Rekomendasi otomatis kombinasi warna berdasarkan koleksi di lemari pakaian pengguna.
+- [ ] **Pengaturan Profil:** Manajemen data pengguna dan foto profil.
+
+---
+
+## 👥 Tim Pengembang
+
+**Tim Bazinga**
 - Darris Felicio Hartanto
 - Muhammad Abyan Hanif
 - Jordhy Alexander Wibisono
 
-Explanation : 
-Aplikasi yang membantu orang buta warna, aplikasi ini diharapkan membuat orang buta warna dapat mengikuti arus sosial terkait berpakaian.
-Dimana aplikasi ini dirancang untuk membantu orang buta warna memilih baju yang tepat dan melihat warna baju yang ia miliki sehingga kita
-bisa tahu pakaian apa yang cocok untuk digabungkan dengan pakaian yang dimiliki penggunanya. Selain itu, diaplikasi ini
-ada shop dimana membantu para orang buta warna mendapat informasi lebih terkait warna, diskon dan harga yang terjangkau untuk sebuah 
-pakaian. Fitur-fitur yang ada diaplikasi ini adalah :
-- Pemberitahuan cuaca dimana di Home Screen akan ada cuaca saat ini diwilayah pengguna untuk direkomendasikan outfit yang cocok digunakan untuk cuaca saat ini.
-- Wardrobe atau lemari, dimana pengguna dapat menambah baju ke wardrobe yang otomatis tersimpan. Keunggulannya dapat mengecek warna dari foto pakaian yang diambil
-sehingga membantu pengguna yang buta warna mengetahui warna pakaiannya.
-- Toko yang memberikan kemudahan dimana akan diberi beberapa opsi toko online yang menjual produk yang sama dan lebih terjangkau. 
+---
 
-Fitur-fitur yang belum masih belum terpenuhi : 
+## 📁 Materi Demo
 
-- Sistem algoritma yang dapat menyesuaikan pilihan yang biasa dipilih pengguna atau dilihat pengguna.
-- Sistem mencoba baju berbasis AR yang dibuat dengan 3D Rendering untuk pengguna dapat menggunakan baju seperti menggunakan filter disosial media.
-- Sistem akun dan login agar pengguna yang mengganti device tidak kehilangan simpanan pakaian diperangkat sebelumnya.
-- Outfit screen yang dimana akan diberikan algoritma untuk menampilkan saran outfit yang cocok dengan pengguna 
-- Kemampuan Pengguna dapat mengganti profile picturenya.
+🎥 [Lihat Demo & Dokumentasi di Google Drive](https://drive.google.com/drive/folders/1pdZ6U5Sd8m9CYhASYpPtbVgFb_ueECO-)
 
-Link drive demo:
-https://drive.google.com/drive/folders/1pdZ6U5Sd8m9CYhASYpPtbVgFb_ueECO-
+---
+
+<p align="center">Made with ❤️ by Tim Bazinga</p>
